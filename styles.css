@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+#breed-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.breed-item {
+  width: 200px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.breed-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+select, input, button {
+  margin: 10px;
+}
+
+.breed-details {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.favorite-item {
+  width: calc(20% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.favorite-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

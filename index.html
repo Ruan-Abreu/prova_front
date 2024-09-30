@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breeds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Dog Breeds</h1>
+
+    <!-- Filtros -->
+    <div>
+        <label for="size-filter">Tamanho:</label>
+        <select id="size-filter">
+            <option value="">Todos</option>
+            <option value="small">Pequeno</option>
+            <option value="medium">Médio</option>
+            <option value="large">Grande</option>
+        </select>
+
+        <label for="life-expectancy-filter">Expectativa de Vida:</label>
+        <select id="life-expectancy-filter">
+            <option value="">Todos</option>
+            <option value="short">Curta (Até 10 anos)</option>
+            <option value="medium">Média (10-15 anos)</option>
+            <option value="long">Longa (Mais de 15 anos)</option>
+        </select>
+
+        <label for="search-filter">Buscar Raça:</label>
+        <input type="text" id="search-filter" placeholder="Digite o nome da raça">
+
+        <button id="apply-filters">Aplicar Filtros</button>
+    </div>
+
+    <button id="show-favorites">Mostrar Favoritos</button>
+    <div id="favorites-list" style="display: none;"></div>
+
+    <h2>Lista de Raças</h2>
+    <div id="breed-list"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
